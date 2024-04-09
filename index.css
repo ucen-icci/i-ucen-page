@@ -3,12 +3,13 @@ body {
 }
 
 nav {
+    font-size: 8px;
     display: flex;
     justify-content: right;
 }
 
 nav span {
-    font-size: 10px;
+    font-size: 5px;
     margin: 0px 2px;
     opacity: 60%;
 }
@@ -32,7 +33,7 @@ nav a:hover {
 .alert u {
     opacity: 60%;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 6px;
 }
 
 .alert {
