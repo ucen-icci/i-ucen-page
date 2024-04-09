@@ -1,0 +1,41 @@
+body {
+    font-family: "Tinos", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav span {
+    font-size: 10px;
+    margin: 0px 2px;
+    opacity: 60%;
+}
+
+nav a {
+    color: #313131;
+    opacity: 60%;
+    text-decoration: transparent;
+}
+
+nav u {
+    color: #313131;
+    opacity: 80%;
+    text-decoration: transparent;
+}
+
+nav a:hover {
+    text-decoration: underline #313131;
+}
+
+.alert u {
+    opacity: 60%;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+}
