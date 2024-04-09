@@ -1,1 +1,0 @@
-Pages based in canvas for ucentral
