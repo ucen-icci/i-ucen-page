@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    font-size: 8px;
+    font-size: 7px;
     display: flex;
     justify-content: right;
 }
@@ -11,23 +11,19 @@ nav {
 nav span {
     font-size: 5px;
     margin: 0px 2px;
-    opacity: 60%;
+    opacity: 40%;
 }
 
 nav a {
     color: #313131;
-    opacity: 60%;
-    text-decoration: transparent;
+    opacity: 40%;
+    text-decoration: none;
 }
 
 nav u {
     color: #313131;
-    opacity: 80%;
-    text-decoration: transparent;
-}
-
-nav a:hover {
-    text-decoration: underline #313131;
+    opacity: 60%;
+    text-decoration: none;
 }
 
 .alert u {
@@ -39,4 +35,17 @@ nav a:hover {
 .alert {
     display: flex;
     justify-content: center;
+}
+
+.content {
+    font-size: 7px;
+}
+
+ul li {
+    margin-left: -30px;
+}
+
+li a {
+    color: #796fdb;
+    text-decoration: none;
 }
