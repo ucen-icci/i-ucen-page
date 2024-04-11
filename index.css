@@ -1,27 +1,61 @@
 body {
-    font-size: 11px;
+    font-family: "Tinos", serif;
 }
 
-banner {
-    display: flex;
+header {
+    background-image: url(resources/src/mb-001.jpg);
     width: 100%;
-    height: 120px;
-    background-image: url("resources/src/mb-001.jpg");
-    background-size: 1000px;
+    background-size: 600px;
     background-position: center;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+nav {
+    font-size: 7px;
+    display: flex;
+    justify-content: right;
+}
+
+nav span {
+    font-size: 5px;
+    margin: 0px 2px;
+    opacity: 40%;
+}
+
+nav a {
+    color: #313131;
+    opacity: 40%;
+    text-decoration: none;
+}
+
+nav u {
+    color: #313131;
+    opacity: 60%;
+    text-decoration: none;
+}
+
+.alert u {
+    opacity: 60%;
+    text-decoration: none;
+    font-size: 6px;
 }
 
 .alert {
-    padding-left: 10px;
-    margin-top: 10px;
-    border-left: 3px solid lightskyblue;
+    display: flex;
+    justify-content: center;
 }
 
-
-b {
-    color: #424242;
+.content {
+    font-size: 6px;
 }
 
-.x {
-    color: #424242;
+.content a {
+    color: #796fdb;
+    text-decoration: none;
+}
+
+ol {
+    color: #313131;
+    opacity: 80%;
 }
