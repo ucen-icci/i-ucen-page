@@ -4,14 +4,6 @@ body {
     font-size: 11px;
 }
 
-b {
-    color: #424242;
-}
-
-.x {
-    color: #424242;
-}
-
 /* Cabecera  */
 
 banner {
@@ -48,6 +40,9 @@ footer {
     justify-content: right;
 }
 
+summary {
+    user-select: none;
+}
 
 
 /* #dbdbdb */
