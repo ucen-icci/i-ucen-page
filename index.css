@@ -17,13 +17,6 @@ banner {
 
 /* Beta */
 
-.alert {
-    padding-left: 10px;
-    margin-top: 10px;
-    border-left: 1px solid #dbdbdb;
-    border-right: 1px solid #dbdbdb;
-}
-
 /* Navegador para materias */
 .title-nav {
     border-radius: 3px;
