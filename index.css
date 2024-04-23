@@ -51,4 +51,14 @@ math {
     margin-right: 20px;
 }
 
+.sum {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.frase {
+    display: flex;
+    justify-content: left;
+}
+
 /* math */
