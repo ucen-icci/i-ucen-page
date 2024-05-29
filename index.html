@@ -249,7 +249,33 @@
         </div>
         <details>
             <summary>Ejercicio 1 = resuelto</summary>
-            
+            Mediante el ingreso de un número cualquiera, calcule la suma de los pares e impares.
+            # Numero guardado en una variable para calcular
+number = int(input("Num: "))
+
+count = 0 # Contador
+par = 0 # Par
+impar = 0 # Impar
+
+# Se ejecuta hasta cuando numero sea mayor que 0
+while number > 0:
+    # Ejemplo: 1234 % 10 = 123,4
+    count = number % 10
+    # Ejemplo: 1234 // 10 = 123
+    number = number // 10
+    
+    # Si nuestro valor contador (cada numero de resto obtenido) su resto es 0 = par
+    if count % 2 == 0:
+        # A par le sumamos nuestro numero obtenido
+        par += count
+    # Si nuestro valor contador (cada numero de resto obtenido) su resto es diferente de 0 == impar
+    else:
+        # A impar le sumamos nuestro obtenido
+        impar += count
+
+print("par", par)
+print("impar", impar)
+
             </details>
         </details>
     <footer>&copy; Emm4 -v1.4.2</footer>
