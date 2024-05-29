@@ -287,10 +287,10 @@ print("impar", impar)
 # Guardamos el numero en una variable
 number = int(input("Ingresa tu número: "))
 
-#Definimos el numero invertido como 0 (no hay numero)
+# Definimos el numero invertido como 0 (no hay numero)
 invert = 0
 
-#Se ejecutará cuando que el numero sea mayor que 0
+# Se ejecutará cuando que el numero sea mayor que 0
 while number > 0:
     # En una variable, guardamos el valor del resto del numero, siendo el resto el ultimo numero de nuestro numero.
     digit = number % 10
@@ -298,8 +298,30 @@ while number > 0:
     invert = invert * 10 + digit
     # Quitamos el resto que ya utilizamos, para poder repetir todo el proceso.
     number = number // 10
-    
+
 print(invert)
+
+            </code></pre>
+        </details>
+        <details>
+            <summary>Ejercicio 3 = resuelto</summary>
+            Mediante un número ingresado, crea el factorial de este, donde:
+            5! = 1 * 2 * 3 * 4 * 5<br>
+            <b>Resolución</b> <br>
+            <pre><code>
+# Gurdamos el numero en una variable
+num = int(input("Num: "))
+
+# En multiplicación 1 es el factor neutro.
+count = 1
+
+# Contará números desde el 1 hasta el nuestro. Donde hay que sumarle 1, ya que python se "come" un dígito.
+for i in range(1, num+1):
+    # Actualizamos constantemente nuestro valor count con los números.
+    count *= i
+
+print(count)
+
             </code></pre>
         </details>
     </details>
