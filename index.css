@@ -56,4 +56,9 @@ math {
     justify-content: left;
 }
 
+
+pre code {
+    opacity: 70%;
+}
+
 /* math */

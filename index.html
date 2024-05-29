@@ -105,7 +105,7 @@
             </details>
             <details>
                 <summary>Gerenciamiento de proyectos del área de la computación e
-                        informática.<br>
+                    informática.<br>
                 </summary>
                 <ul>
                     <li>Gestión de proyectos del área, utilizando los recursos asignados para contribuir al logro
@@ -240,9 +240,9 @@
             estableciendo mínimo de horas docentes en ciencias: Básicas e ingeniería y cursos de especialidad.
         </details>
     </details>
-        <a>Python</a>
+    <a>Python</a>
     <details>
-        <summary>Ciclos = while & for</summary>
+        <summary>While & for</summary>
         <div class="explore">
             <a href="resources/books/ing/lineasdeescuela.pptx">doc/lineas de escuela</a>
             <hr>
@@ -251,7 +251,7 @@
             <summary>Ejercicio 1 = resuelto</summary>
             Mediante el ingreso de un número cualquiera, calcule la suma de los pares e impares.<br>
             <b>Resolución</b> <br>
-<pre><code>
+            <pre><code>
 # Numero guardado en una variable para calcular
 number = int(input("Num: "))
 
@@ -278,8 +278,31 @@ while number > 0:
 print("par", par)
 print("impar", impar)
 </code></pre>
-            </details>
         </details>
+        <details>
+            <summary>Ejercicio 2 = resuelto</summary>
+            Leer una frase y contar el número de vocales que esta tiene. <br>
+            <b>Resolución</b> <br>
+            <pre><code>
+# Guardamos el numero en una variable
+number = int(input("Ingresa tu número: "))
+
+#Definimos el numero invertido como 0 (no hay numero)
+invert = 0
+
+#Se ejecutará cuando que el numero sea mayor que 0
+while number > 0:
+    # En una variable, guardamos el valor del resto del numero, siendo el resto el ultimo numero de nuestro numero.
+    digit = number % 10
+    # Actualizamos ahora nuestro numero invertido con el resto obtenido anteriormente, multiplicandolo con 10 constantemente para poder ir creando una sumatoria con sentido.
+    invert = invert * 10 + digit
+    # Quitamos el resto que ya utilizamos, para poder repetir todo el proceso.
+    number = number // 10
+    
+print(invert)
+            </code></pre>
+        </details>
+    </details>
     <footer>&copy; Emm4 -v1.4.2</footer>
 </body>
 
