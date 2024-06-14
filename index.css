@@ -18,10 +18,16 @@ banner {
 /* Beta */
 
 /* Navegador para materias */
-.title-nav {
+nav {
+    display: flex;
+    justify-content: space-between;
     border-radius: 3px;
     margin-top: 10px;
     padding-top: 2px;
+}
+
+.sub-nav a {
+    margin-left: 2px;
 }
 
 .explore {
