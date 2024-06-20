@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>i-ucen-page</title>
+    <title>Emm-niv</title>
     <link rel="icon" href="resources/build/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
     <!--Google fonts conection-->
@@ -15,318 +15,201 @@
         rel="stylesheet">
     <!--WATER.CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
-
+    <!--Math extension-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            options: {
+                renderActions: {
+                    addMenu: [0, '', '']
+                }
+            },
+            chtml: {
+                displayAlign: 'left'  // Aligns displayed equations to the left
+            }
+        };
+    </script>
 </head>
 
 <body>
     <banner></banner>
     <nav>
-        <span class="title-nav"><b>Home</b>
+        <span class="title-nav"><a href="index.html">Matemáticas</a>
         </span>
         <span class="sub-nav">
+            <b>Programación</b>
+            <b>Física</b>
         </span>
     </nav>
     <hr>
-    <a>Matemáticas</a>
-    <details>
-        <summary>Sistema de ecuaciones</summary>
-        <div class="explore">
-            <a href="resources/books/math/Sistema-ecuaciones.pdf" target="_blank">Recurso</a>
-            <hr>
-            Por favor, complete los ejercicios que se detallan a continuación. Serán evaluados y discutidos durante
-            la próxima sesión de clase.
-            <!-- Function a -->
-    </details>
-    <details>
-        <summary>Ecuaciones globales</summary>
-        <div class="explore">
-            <a href="resources/books/math/Aprendizaje-ecuaciones.pdf" target="_blank">Recurso</a>
-            <hr>
-            Por favor, complete los ejercicios que se detallan a continuación. Serán evaluados y discutidos durante
-            la próxima sesión de clase.
-        </div>
-    </details>
-    <details>
-        <summary>Funciones cuadráticas</summary>
-        <div class="explore">
-            <a href="resources/books/math/recurso-cuadrática.pdf" target="_blank">Recurso</a>
-            <a href="resources/books/math/ejercicios cuadráticas.pdf" target="_blank">Ejercicios</a>
 
-            <hr>
-            Por favor, complete los ejercicios que se detallan a continuación. Serán evaluados y discutidos durante
-            la próxima sesión de clase.
-        </div>
-        <div class="exs"><br>
-            <b>1 - Representa la función cuadrática y =</b> −x² + 4x − 3 <br>
-            <b>2 - Representa la función cuadrática y =</b> x² + 2x + 1 <br>
-            <b>3 - Representa la función cuadrática y =</b> x² + x + 1 <br>
-            <hr>
-            <b>Halla el vértice y la ecuación del eje de simetría de las siguientes parábolas</b><br>
-            1) y = (x − 1)² + 1 <br>
-            2) y = 3(x − 1)² + 1 <br>
-            3) y = 2(x + 1)² – 3 <br>
-            4) y = –3(x − 2)² − 5 <br>
-            5) y = x² − 7x − 18 <br>
-            6) y = 3x² + 12x − 5 <br>
-            <hr>
-            <b>Indica, sin dibujarlas, en cuantos puntos cortan al eje de abscisas las siguientes parábolas:</b><br>
-            1) y = x² − 5x + 3 <br>
-            2) y = 2x² − 5x + 4 <br>
-            3) y = x² − 2x + 4 <br>
-            4) y = −x² − x + 3 <br>
-
-        </div>
-    </details>
-    <a>Ingeniería</a>
+    <u>Ecuaciones</u><span class="circle">!</span><br>
+    El siguiente fragmento, se divide en secciones categorizadas en diferentes grados; donde dependiendo del grado en
+    cuestión, existe un procedimiento el cual seguir.
     <details>
-        <summary>Historia de la ingeniería </summary>
+        <summary>Ecuaciones primer grado.</summary>
         <div class="explore">
-            <a href="resources/books/ing/lineasdeescuela.pptx">doc/lineas de escuela</a>
+            <a href="resources/books/math/ejercicios-002.html" target="_parent">Ejercicios</a>
+            <a href="resources/books/math/Aprendizaje-ecuaciones.pdf" target="_parent">Recurso</a>
             <hr>
-        </div>
-        <details>
-            <summary> Los ingenieros informáticos
-            </summary>
-            <div class="frase">
-                <i>📌 "La ingeniería no es una ciencia, es una aplicación de ella."</i>
-            </div> <br>
-            <i>Son expertos en integración de equipos multidisciplinarios, transferencia de tecnología, y
-                gestión de
-                sistemas de información para mejorar la eficiencia industrial.</i>
-        </details>
-        <details>
-            <summary> Áreas
-            </summary>
-            <details>
-                <summary> Desarrollo de sistemas de computación e informática.<br>
-                </summary>
-                <ul>
-                    <li>Generar propuestas factibles de solución a una problemática.</li>
-                    <li>Generar propuestas factibles de solución a una problemática.</li>
-                </ul>
-            </details>
-            <details>
-                <summary>Gerenciamiento de proyectos del área de la computación e
-                    informática.<br>
-                </summary>
-                <ul>
-                    <li>Gestión de proyectos del área, utilizando los recursos asignados para contribuir al logro
-                        organizacional.</li>
-                    <li>Aplica modelos y tácticas de procesos, a partir de la planificación para lograr el
-                        mejoramiento continuo.</li>
-                </ul>
-            </details>
-            <details>
-                <summary>Emprendimiento en tecnologías de la computación e informática.<br>
-                </summary>
-                <ul>
-                    <li>Evalúa alternativas de emprendimiento y nuevos negocios con soluciones tecnológicas del
-                        área.</li>
-                </ul>
-            </details>
-        </details>
-        </div>
-        <div class="explore">
-            <a href="resources/books/ing/campos.pptx">doc/campos de la ing</a>
-            <hr>
-        </div>
-        <details>
-            <summary>Principios de la ingeniería
-            </summary>
-            <div class="frase">
-                💡 Los primeros ingenieros fueron: Arquitectos, ingenieros militares y en irrigación
-            </div>
-            <br>
-            <details>
-                <summary>Egipto</summary>
-                <ul>
-                    <li>Cigüeñal</li>
-                    <li>Pirámide de Koeps</li>
-                </ul>
-            </details>
-            <details>
-                <summary>Mesopotámica</summary>
-                <ul>
-                    <li>Torre de asalto</li>
-                    <li>Armas de hierro</li>
-                    <li>Domesticar caballos</li>
-                </ul>
-            </details>
-            <details>
-                <summary>Griega</summary>
-                <ul>
-                    <li>Tornillo de Arquímedes</li>
-                    <li>Castillete</li>
-                    <li>Aristóteles, Pitágoras y Arquímedes</li>
-                    <li>Ingeniería y Arquitectura</li>
-                </ul>
-            </details>
-            <details>
-                <summary>Romana</summary>
-                <ul>
-                    <li>Esclavos</li>
-                    <li>Acueductos</li>
-                    <li>Coliseo</li>
-                    <li>Edificios públicos</li>
-                    <li>Carreteras</li>
-                    <li>Calefacción</li>
-                    <li>Alumbrado público</li>
-                </ul>
-            </details>
-            <details>
-                <summary>China</summary>
-                <ul>
-                    <li>Imprenta</li>
-                    <li>Papel</li>
-                    <li>Pólvora</li>
-                    <li>Muralla China</li>
-                    <li>Brújula</li>
-                    <li>Engranajes</li>
-                    <li>Juncos</li>
-                </ul>
-            </details>
-            <details>
-                <summary>Europea</summary>
-                <ul>
-                    <li>Cañón</li>
-                    <li>Locomotoras</li>
-                    <li>Vehículos</li>
-                </ul>
-            </details>
-        </details>
-        <details>
-            <summary>Campos Actuales</summary>
-            n/a
-        </details>
-        <div class="explore">
-            <a href="resources/books/ing/Ingenieria vs Ciencia.pptx">doc/ingeniería vs ciencia</a>
-            <hr>
-        </div>
-        <details>
-            <summary>Ingeniero</summary>
+            Son ecuaciones con una incógnita
+            Para resolver: <br>
             <ol type="1">
-                <li>El propósito del ingeniero es la utilización de este conocimiento en situaciones particulares para
-                    producir bienes y servicios.</li>
-                <li>Recursos y fuerzas de la naturaleza</li>
-                <li>Necesidades de los individuos</li>
-                <li>Utilización de <b>Metodologías</b> para la resolución de problemas</li>
+                <li>Eliminamos denominadores calculando el mínimo común múltiplo.</li>
+                <li>Calculamos cuánto le falta a cada denominador para llegar a su mínimo como múltiplo.</li>
+                <li>Eliminamos los denominadores.</li>
+                <li>Agrupamos términos x en un lado de la igualdad.</li>
+                <li>Resolvemos.</li>
             </ol>
-        </details>
-        <details>
-            <summary>Definición</summary>
             <ul>
-                <li><b>1959</b>: <i>“la ingeniería es la profesión que emplea el conocimiento de la matemática y las
-                        ciencias naturales en forma económica y socialmente responsable para la generación de productos
-                        y servicios requeridos por la sociedad”</i></li>
-                <li><b>1984</b>: <i>"la ingeniería se entiende como la aplicación creativa de los principios científicos
-                        al diseño o desarrollo de estructuras, máquinas, aparatos o procesos de fabricación o a las
-                        obras que los utilizan aisladamente o en combinación; o la construcción y operación de los
-                        mismos con pleno conocimiento de su diseño; o la predicción de su comportamiento bajo
-                        condiciones operacionales específicas; todo ello en relación con un funcionamiento especificado
-                        en condiciones de operación económica y segura para la vida y la propiedad"</i></li>
-                <li><b>ABET</b>: <i>Ingeniería es la profesión en la cual el conocimiento de las ciencias naturales y
-                        matemáticas, obtenido por estudio, experiencia y práctica, es aplicado con criterio al
-                        desarrollo de formas de emplear, económicamente, los materiales y fuerzas de la naturaleza para
-                        el beneficio de la humanidad.</i></li>
-                <li><b>Robert E. Doherty</b>: <i>Ingeniería es el arte, basado en el conocimiento de las ciencias
-                        físicas y matemáticas, de utilizar económicamente las fuerzas y materiales de la naturaleza en
-                        beneficio del hombre</i></li>
+                <li>Ejemplo:</li>
+                <ol>
+                    <li>\[\frac{2x-5}{3}+
+                        \frac{3x-6}{4} =
+                        \frac{4x-8}{12}\]</li>
+                    <cite>mínimo común múltiplo: 12</cite>
+                    <li>\[4(2x-5) + 3(3x-6) = 1(4x-8)\]</li>
+                    <li>\[10x - 20 +9x - 18 = 4x - 8\]</li>
+                    <cite>Determinamos la igualdad, pasando a un lado nuestras incógnitas, y a un lado nuestros valores
+                        numéricos.</cite>
+                    <li>\[ 10x + 9x - 4x = -~8 + 20 + 18\]</li>
+                    <li>\[15x = 30\]</li>
+                    <li>\[ x = \normalsize\frac{30}{15}\scriptsize => x = 2\]</li>
+                    <cite>El valor de x = 2</cite>
+                </ol>
             </ul>
-        </details>
-        <details>
-            <summary>Colegio profesores</summary>
-            <div class="frase">💡 El científico descubre lo que es, el ingeniero crea lo que no es
-            </div>
-            <br>
-            <b>Requisitos:</b> Posesión de un titulo de ingeniero civil obtenido en una facultad de ingeniería,
-            estableciendo mínimo de horas docentes en ciencias: Básicas e ingeniería y cursos de especialidad.
-        </details>
-    </details>
-    <a>Python</a>
-    <details>
-        <summary>While & for</summary>
-        <div class="explore">
-            <a href="resources/books/ing/lineasdeescuela.pptx">doc/lineas de escuela</a>
-            <hr>
         </div>
-        <details>
-            <summary>Ejercicio 1 = resuelto</summary>
-            Mediante el ingreso de un número cualquiera, calcule la suma de los pares e impares.<br>
-            <b>Resolución</b> <br>
-            <pre><code>
-# Numero guardado en una variable para calcular
-number = int(input("Num: "))
-
-count = 0 # Contador
-par = 0 # Par
-impar = 0 # Impar
-
-# Se ejecuta hasta cuando numero sea mayor que 0
-while number > 0:
-    # Ejemplo: 1234 % 10 = 123,4
-    count = number % 10
-    # Ejemplo: 1234 // 10 = 123
-    number = number // 10
-    
-    # Si nuestro valor contador (cada numero de resto obtenido) su resto es 0 = par
-    if count % 2 == 0:
-        # A par le sumamos nuestro numero obtenido
-        par += count
-    # Si nuestro valor contador (cada numero de resto obtenido) su resto es diferente de 0 == impar
-    else:
-        # A impar le sumamos nuestro obtenido
-        impar += count
-
-print("par", par)
-print("impar", impar)
-</code></pre>
-        </details>
-        <details>
-            <summary>Ejercicio 2 = resuelto</summary>
-            Mediante el ingreso de un número cualquiera, este inviertalo .<br>
-            <b>Resolución</b> <br>
-            <pre><code>
-# Guardamos el numero en una variable
-number = int(input("Ingresa tu número: "))
-
-# Definimos el numero invertido como 0 (no hay numero)
-invert = 0
-
-# Se ejecutará cuando que el numero sea mayor que 0
-while number > 0:
-    # En una variable, guardamos el valor del resto del numero, siendo el resto el ultimo numero de nuestro numero.
-    digit = number % 10
-    # Actualizamos ahora nuestro numero invertido con el resto obtenido anteriormente, multiplicandolo con 10 constantemente para poder ir creando una sumatoria con sentido.
-    invert = invert * 10 + digit
-    # Quitamos el resto que ya utilizamos, para poder repetir todo el proceso.
-    number = number // 10
-
-print(invert)
-
-            </code></pre>
-        </details>
-        <details>
-            <summary>Ejercicio 3 = resuelto</summary>
-            Mediante un número ingresado, crea el factorial de este, donde:
-            5! = 1 * 2 * 3 * 4 * 5<br>
-            <b>Resolución</b> <br>
-            <pre><code>
-# Gurdamos el numero en una variable
-num = int(input("Num: "))
-
-# En multiplicación 1 es el factor neutro.
-count = 1
-
-# Contará números desde el 1 hasta el nuestro. Donde hay que sumarle 1, ya que python se "come" un dígito.
-for i in range(1, num+1):
-    # Actualizamos constantemente nuestro valor count con los números.
-    count *= i
-
-print(count)
-            </code></pre>
-        </details>
     </details>
-    <footer>&copy; Emm4 -v1.4.2</footer>
+    <details>
+        <summary>Ecuaciones segundo grado.</summary>
+        <div class="explore">
+            <a href="resources/books/math/ejercicios-003.html" target="_parent">Ejercicios</a>
+            <b>Video</b>
+            <a href="resources/books/math/recurso-cuadrática.pdf" target="_parent">Recurso</a>
+            <hr>
+            Una ecuación de segundo grado tiene dos soluciones, y tiene la forma <i>ax² + bx + c = 0</i>
+            <p>Para resolver:</p>
+            <ol type="1">
+                <li>Se designa los tipos de soluciones que obtendremos, donde discriminante se determina como:</li>
+                <ol type="a">
+                    <li>b² - 4ac > 0 | Dos soluciones distintas.</li>
+                    <li>b² - 4ac = 0 | Dos soluciones iguales.</li>
+                    <li>b² - 4ac < 0 | No soluciones.</li>
+                </ol>
+                <li>Determinamos nuestras soluciones utilizando fórmula <b>Bhaskara</b>:</li>
+                <u>Fórmula Bhaskara</u>
+                \[{x =}\frac{-b~\pm~\sqrt{b^2 - 4ac}}{2a}\]
+            </ol>
+            <ul>
+                <li>Ejemplo:</li>
+                <ol>
+                    <li>\[3x^2 - 6x + 3 = 0\]</li>
+                    <cite>Aplicamos discriminante</cite>
+                    <li>\[(-6)^2 - 4\times3\times3 => 36 - 36 = 0\]</li>
+                    <cite>Discriminante = 0, por lo tanto habrán dos soluciones iguales.</cite>
+                    <li>\[\frac{6 \pm \sqrt{36 - 36}}{6}= x\]</li>
+                    <cite>x1 = 1</cite> <br>
+                    <cite>x2 = 1</cite>
+                </ol>
+            </ul>
+        </div>
+    </details>
+    <details>
+        <summary>Ecuaciones racionales</summary>
+        <div class="explore">
+            <a href="resources/books/math/ejercicios-004.html" target="_parent">Ejercicios</a>
+            <b>Video</b>
+            <hr>
+            Son aquellas las que la incógnita aparece en fracciones algebraicas; buscando la igualación de denominadores
+            para tener una ecuación básica. <br>
+            <p> Para resolver:</p>
+            <ol type="1">
+                <li>Eliminamos los denominadores calculando y multiplicando por el <b>mínimo común múltiplo.</b></li>
+                <li>Comprobación de solución. Donde nunca será solución aquellos valores que anulen el denominador.</li>
+            </ol>
+            <ul>
+                <li>Ejemplo:</li>
+                <ol>
+                    <li>\[\frac{2}{x+2}-\frac{1}{x-3} = \frac{3}{x^2-x+6}\]</li>
+                    <cite> Resolvemos cuadráticas vistas</cite>
+                    <li>\[x^2 -x+ 6 = (x-3)(x+2)\]</li>
+                    <cite>Despejamos soluciones que no son posibles</cite>
+                    <ol type="a">
+                        <li>\[x - 3 \therefore x = 3\]</li>
+                        <li>\[x + 2 \therefore x = -2\]</li>
+                    </ol>
+                    <cite>Minimo común múltiplo: (x-3)(x+2)</cite>
+                    <li>\[\frac{2(x-3)}{x+2}-\frac{1(x+2)}{x-3} = \frac{3}{x^2-x+6}\]</li>
+                    <li>\[\frac{2x -6 -x - 2}{(x+2)(x-3)}= \frac{3}{(x+2)(x-3)}\]</li>
+                    <cite>Al igualar denominadores, podemos ignorarlos.</cite>
+                    <li>\[x - 8 = 3 \therefore x = 3 + 8 \therefore x = 11\]</li>
+                    <cite>Valor de x = 11</cite>
+                </ol>
+            </ul>
+        </div>
+        <!-- Function a -->
+    </details>
+    <details>
+        <summary>Ecuaciones irracionales</summary>
+        <div class="explore">
+            <a href="resources/books/math/ejercicios-005.html" target="_parent">Ejercicios</a>
+            <b>Video</b>
+            <hr>
+            Son aquellas donde la incógnita aparece bajo signos radicales. <br>
+            <p> Para resolver:</p>
+            <ol type="1">
+                <li>Aislamos una de las raíces.</li>
+                <li>Elevamos ambos lados de la ecuación a orden del índice de nuestra raíz.</li>
+                <li>Hay que comprobar si las soluciones son correctas.</li>
+            </ol>
+            <ul>
+                <li>Ejemplo:</li>
+                <ol>
+                    <li>\[\sqrt{2x-1} + \sqrt{x+4} = 6\]</li>
+                    <cite>Aislamos una de las raíces.</cite>
+                    <li>\[\sqrt{2x-1} = 6 - \sqrt{x+4}\]</li>
+                    <cite>Elevamos ambos lados de la ecuación al índice: 2</cite>
+                    <li>\[(\sqrt{2x-1})^2 = (6-\sqrt{x+4})^2 \therefore 2x-1 = 36 + (x+4) - 12\sqrt{x+4}\]</li>
+                    <cite>Aislamos la raíz que tenemos nuevamente.</cite>
+                    <li>\[12\sqrt{x+4} = 36 + (x+4) - (2x-1) \therefore 12\sqrt{x+4} = 41 - x\]</li>
+                    <cite>Elevamos ambos lados de la ecuación al índice: 2</cite>
+                    <li>\[(12\sqrt{x+4})^2 = (41-x)^2 \therefore 144(x+4) = 1681 + x ^2 -82x\therefore 144x + 576 =
+                        x^2-82x +1681 \]</li>
+                    <cite>Resolvemos la ecuación de segundo grado.</cite>
+                    <li>\[x^2 - 226x + 1105 = 0 \therefore x^2 - 226x + 1105 = (x-5) (x - 221)\]</li>
+                    <ol type="a">
+                        <li>\[x-5 \therefore x = 3\]</li>
+                        <li>\[x - 221 \therefore x = 221\]</li>
+                    </ol>
+                    <cite>Comprobamos ambas soluciones, buscando así la correcta.</cite>
+                    <li>\[x1 = 5 => \sqrt{2\times5-1} + \sqrt{5+4} = 6 \therefore \sqrt{9} + \sqrt{9} = 6
+                        \therefore 3 + 3 = 6\]</li>
+                    <li>\[x2 = 221 => \sqrt{2\times221-1} + \sqrt{221+4} = 6 \therefore \sqrt{441} +
+                        \sqrt{225} = 6 \therefore 21 + 15 = 6\]</li>
+                    <cite>Solución x1 = correcta</cite> <br>
+                    <cite>Solución x2 = incorrecta</cite>
+                </ol>
+            </ul>
+
+        </div>
+    </details>
+    <details>
+        <summary>Ecuaciones exponenciales</summary>
+        <div class="explore">
+            no
+        </div>
+    </details>
+    <details>
+        <summary>Ecuaciones logarítmicas</summary>
+        <div class="explore">
+            no
+        </div>
+    </details>
+    <footer>&copy; <i>F. Ahumada</i>~v001</footer>
 </body>
 
 </html>
