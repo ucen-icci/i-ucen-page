@@ -14,7 +14,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!--WATER.CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <!--Math extension-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            options: {
+                renderActions: {
+                    addMenu: [0, '', '']
+                }
+            },
+            chtml: {
+                displayAlign: 'left'  // Aligns displayed equations to the left
+            }
+        };
+    </script>
 </head>
 
 <body>
@@ -28,7 +46,6 @@
         </span>
     </nav>
     <hr>
-
     <u>Dinámica</u><br>
     El siguiente fragmento, se divide en la explicación de las leyes de Newton.
     <details>
@@ -61,21 +78,25 @@
     <u>Dinámica aplicada</u><span class="circle">!</span><br>
     El siguiente contenido busca aplicar de forma correcta las leyes de Newton a momentos prácticos.
     <details>
-        <summary>Sistema en equilibrio</summary>
-        <div class="explore">
-            <a href="resources/books/math/ejercicios-002.html" target="_parent">Ejercicios</a>
-            <a href="resources/books/math/Aprendizaje-ecuaciones.pdf" target="_parent">Recurso</a>
-            <a href="resources/sources/math/video-002.html" target="_parent">Video</a>
-            <hr>
-        </div>
-    </details>
-    <details>
         <summary>Plano horizontal</summary>
         <div class="explore">
             <a href="resources/books/math/ejercicios-002.html" target="_parent">Ejercicios</a>
             <a href="resources/books/math/Aprendizaje-ecuaciones.pdf" target="_parent">Recurso</a>
             <a href="resources/sources/math/video-002.html" target="_parent">Video</a>
             <hr>
+
+        </div>
+    </details>
+    <details open>
+        <summary>Sistema en equilibrio</summary>
+        <div class="explore">
+            <a href="resources/books/math/ejercicios-002.html" target="_parent">Ejercicios</a>
+            <a href="resources/books/math/Aprendizaje-ecuaciones.pdf" target="_parent">Recurso</a>
+            <a href="resources/sources/math/video-002.html" target="_parent">Video</a>
+            <hr>
+            Para determinar que un sistema está en equilibrio, es importante cumplir dos condiciones.
+            \[\sum Fx = 0\]
+            \[\sum Fy = 0\]
         </div>
     </details>
     <details>
